@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4BCEE471"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#4ABD3703"
+        android:backgroundTint="#C90DB0"
+        android:fontFamily="@font/coming_soon"
+        android:gravity="clip_horizontal|center"
+        android:text="Crickets?!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#DA971791"
+        android:textSize="35sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        app:srcCompat="@drawable/warr"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[1]" />
+
+    <TextView
+        android:id="@+id/genSpeech"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:textAlignment="center"
+        android:textColor="#BADB1111"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/beats"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="25 seconds! no of chirps?"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="#A31CCDEC"
+        android:text="Calculate"
+        android:textColor="#D7463911"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/disp"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_marginLeft="25dp"
+        android:text="null"
+        android:textColor="#9C27B0"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
